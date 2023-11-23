@@ -1,0 +1,9 @@
+{
+  "name": "term-alert",
+  "version": "0.0.0",
+  "description": "Chrome extension that alerts when a term appears on a webpage",
+  "author": "Anthony Dalfonso <anthonyjdalfonso@gmail.com>",
+  "devDependencies": {
+    "@types/chrome": "^0.0.253"
+  }
+}

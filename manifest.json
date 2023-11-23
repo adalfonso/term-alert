@@ -1,0 +1,16 @@
+{
+  "name": "Find Terms",
+  "description": "Find terms in a page",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "src/popup/popup.html"
+  },
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["src/main.js"]
+    }
+  ]
+}
